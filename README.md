@@ -16,7 +16,7 @@ Prolonged headphone use at high volumes can cause hearing fatigue and long-term 
 
 ## Features
 
-- 🖥️ Lives in your **system tray** — no window clutter
+- 🖥️ Lives in your **system tray** no window clutter
 - 🔔 Native **Windows toast notifications** at each phase change
 - 🔵 Blue icon while listening, 🟡 amber during break
 - ⚙️ Configurable listen and break durations via right-click menu
@@ -29,7 +29,7 @@ Prolonged headphone use at high volumes can cause hearing fatigue and long-term 
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/your-username/headphone-break-reminder.git
+git clone https://github.com/omtiwari17/PauseWave
 cd headphone-break-reminder
 ```
 
