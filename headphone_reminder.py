@@ -95,7 +95,7 @@ def show_break_popup():
     # prevent closing with X — must use the button
     popup.protocol("WM_DELETE_WINDOW", lambda: None)
 
-    W, H = 400, 300
+    W, H = 400, 360
 
     # position on target monitor
     if mon:
@@ -145,10 +145,10 @@ def show_break_popup():
     tk.Button(popup, text="✓  Got it, taking a break",
               font=("Segoe UI", 11, "bold"), bg=ACCENT, fg="#1e1e2e",
               relief="flat", cursor="hand2", pady=8,
-              command=on_acknowledge).pack(fill="x", padx=40, pady=(8, 0))
+              command=on_acknowledge).pack(fill="x", padx=40, pady=(12, 6))
 
     tk.Label(popup, text="This window will close automatically when break ends.",
-             font=("Segoe UI", 8), bg=BG, fg=SUBTEXT).pack(pady=(6, 0))
+             font=("Segoe UI", 8), bg=BG, fg=SUBTEXT).pack(pady=(0, 10))
 
     popup_win = popup
     popup.focus_force()
